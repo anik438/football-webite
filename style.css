@@ -162,7 +162,7 @@ main{
     transition: 0.5s;
 }
 .favorite-player:hover{
-    background-color: rgb(170, 147, 147);
+    background-color: rgb(0, 255, 170);
 }
 .favorite-player img{
     width: 300px;
@@ -186,7 +186,7 @@ main{
 .copa-america{
     margin-top: 150px;
 }
-.highlite{
+.highlight{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 60px;
@@ -307,7 +307,7 @@ main{
         margin-left: 10px;
     }
     
-    .banner, .players,  .fav-player, .highlite{
+    .banner, .players,  .fav-player, .highlight{
         grid-template-columns: 1fr;
     }
     .banner-title h1{
@@ -390,7 +390,7 @@ main{
         margin-left: 170px;
         margin-bottom: 30px;
     }
-    .banner,  .fav-player, .highlite{
+    .banner,  .fav-player, .highlight{
         grid-template-columns: 1fr;
     }
     .players{
