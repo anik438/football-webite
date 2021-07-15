@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 .container{
-    width: 1090px;
+    width: 1000px;
    
 }
 
@@ -170,11 +170,7 @@ main{
     width: 300px;
     height: 256px;
     border-radius: 10px;
-}
-.name{
-    color: #18191F;
-    font-size: 23px;
-    margin-bottom: 0;
+
 }
 .country{
     color: #18191F;
@@ -271,7 +267,7 @@ main{
 
 @media only screen and (max-width:668px) {
     .container{
-        width: 100%;
+        width: 1000px;
     }
     .nav{
         flex-direction: column;
@@ -284,7 +280,7 @@ main{
         margin-left: 10px;
     }
     
-    .banner, .players, .channels, .hot-player, .highlite{
+    .banner, .players,  .fav-player, .highlite{
         grid-template-columns: 1fr;
     }
     .banner-title h1{
@@ -310,20 +306,6 @@ main{
     }
     .section-title{
         font-size: 21px;
-    }
-    .live-football-match p, .tournament-player p{
-        color: #6C6C6C;
-        font-size: 12px;
-        margin: auto;
-        width: 180px;
-        padding-bottom: 15px;
-    }
-    .channel{
-        margin: 0px 12px;
-    }
-    .channel img{
-        width: 100%;
-        height: auto;
     }
     .favorite-player{
         margin: 0px 12px;
@@ -381,7 +363,7 @@ main{
         margin-left: 170px;
         margin-bottom: 30px;
     }
-    .banner, .channels, .hot-player, .highlite{
+    .banner,  .fav-player, .highlite{
         grid-template-columns: 1fr;
     }
     .players{
@@ -393,16 +375,6 @@ main{
     }
     .section-title {
         font-size: 25px;
-    }
-    .channel{
-        margin: 0px 14px;
-    }
-    .live-football-match p, .tournament-player p{
-        color: #6C6C6C;
-        font-size: 12px;
-        margin: auto;
-        width: 200px;
-        padding-bottom: 15px;
     }
     .rating{
         padding-bottom: 10px;
