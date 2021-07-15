@@ -1,8 +1,8 @@
-/*================GOOGLE FONT==============  */
+/*-------------------------------------GOOGLE FONT------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/*================GOOGLE FONT==============  */
+/*------------------------------------GOOGLE FONT------------------- */
 
-/*==================COMMON STYLE============= */
+/*-----------------------------STYLE---------------------- */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
@@ -10,11 +10,11 @@ body{
     margin: 0;
 }
 .container{
-    width: 1000px;
+    width: 1100px;
    
 }
 
-/*============HEADER PART START================ */
+/*-------------------------------------HEADER PART START------------------------------------ */
 .header{
     background-color:  #2D25A0;
 }
@@ -79,16 +79,18 @@ body{
 .banner img:hover{
     transform: rotate(360deg);
 }
-/*============HEADER PART END================ */
+/*-----------------------------HEADER PART END-------------------- */
 
-/*============MAIN PART START================ */
+/*---------------------------MAIN PART START---------------------- */
 main{
     display: grid;
     flex-direction: column;
     justify-content: center;
     margin-top: 40px;
 } 
-/*============MATCH WINNER PART START================ */
+
+
+/*------------------------MATCH WINNER PART START------------------------- */
 
 
 .players{
@@ -126,11 +128,7 @@ main{
     text-align: justify;
 }
 
-/*============MATCH WINNER PART END================ */
-
-
-
-/*============TOP PLAYER PART START================ */
+/*-------------------------------TOP PLAYER PART START-----------------*/
 .top-player{
     margin-top: 20px;
     box-shadow: 0px 0px 40px rgba(235, 17, 17, 0.15);
@@ -182,9 +180,9 @@ main{
 .fa-star.filled{
     color: crimson;
 }
-/*============TOP PLAYER PART END================ */
+/*------------------------------------TOP PLAYER PART END-------------------------*/
 
-/*============HIGHLITS PART START================ */
+/*------------------------------HIGHLIGHTS PART START------------------------------ */
 .copa-america{
     margin-top: 150px;
 }
@@ -215,8 +213,37 @@ main{
     width: 567px;
     height: 427px;
 }
-/*============HIGHLITS PART END================ */
+/*============HIGHLIGHTS PART END================ */
 /*============MAIN PART END================ */
+
+/*-------------------------------------- Highest goal scorer area start----------------------- */
+
+.goal-scorer h1 {
+    color: #2d25a0dc;
+    font-size: 40px;
+    text-align: center;
+  }
+  .top-scorer {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .player-information {
+    background-color: rgba(211, 211, 211, 0.445);
+    border-radius: 5px;
+    box-shadow: 2px 2px 40px gray;
+    margin: 0 5px 60px 5px;
+    padding: 15px;
+  }
+  .player-image {
+    width: 290px;
+  }
+  .player-image img{
+    width: 290px;
+    border-radius: 5px;
+  }
+  /*-------------------------------------- Highest goal scorer area end-------------------- */
 
 
 /*============FOOTER PART START================ */
@@ -261,13 +288,13 @@ main{
     color: crimson;
 }
 
-/*===============MEDIA QUERY======================= */
+/*------------------------------MEDIA QUERY======================= */
 
-/*==================MOBILE DEVICE========================== */
+/*==================MOBILE DEVICE----------------------------------*/
 
 @media only screen and (max-width:668px) {
     .container{
-        width: 1000px;
+        width: 100%;
     }
     .nav{
         flex-direction: column;
@@ -347,7 +374,7 @@ main{
         height: auto;
     }
    
-/*=======================TABLET DEVICE================= */
+/*-------------------------TABLET DEVICE--------------------------*/
 
 @media only screen and (min-width:668px) and (max-width:992px) {
    .container{
